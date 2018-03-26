@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SingleImage from './SingleImage';
-import apiKey from '../apiKey';
+import {bestBuy as apiKey} from '../secrets.json';
 
 class Laptops extends Component {
   constructor(props) {
